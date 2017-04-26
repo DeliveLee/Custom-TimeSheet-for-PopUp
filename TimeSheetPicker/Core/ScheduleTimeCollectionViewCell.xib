@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ScheduleTimeCollectionViewCell" id="nsc-hW-yrb" customClass="ScheduleTimeCollectionViewCell" customModule="TimeSheetPicker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="211" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="211" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVp-Do-vOM">
+                        <rect key="frame" x="0.0" y="0.0" width="211" height="84"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="08:00 - 11:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kU6-Bf-zA8">
+                                <rect key="frame" x="0.0" y="0.0" width="211" height="84"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kU6-Bf-zA8" firstAttribute="top" secondItem="CVp-Do-vOM" secondAttribute="top" id="16x-C6-FLW"/>
+                            <constraint firstAttribute="trailing" secondItem="kU6-Bf-zA8" secondAttribute="trailing" id="cT2-jr-Y3G"/>
+                            <constraint firstAttribute="bottom" secondItem="kU6-Bf-zA8" secondAttribute="bottom" id="qf3-TR-hqd"/>
+                            <constraint firstItem="kU6-Bf-zA8" firstAttribute="leading" secondItem="CVp-Do-vOM" secondAttribute="leading" id="ym0-RI-jAv"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="CVp-Do-vOM" secondAttribute="trailing" id="2TT-UA-vpy"/>
+                <constraint firstAttribute="bottom" secondItem="CVp-Do-vOM" secondAttribute="bottom" id="8bd-CS-OSn"/>
+                <constraint firstItem="CVp-Do-vOM" firstAttribute="top" secondItem="nsc-hW-yrb" secondAttribute="top" id="B3q-3j-i2k"/>
+                <constraint firstItem="CVp-Do-vOM" firstAttribute="leading" secondItem="nsc-hW-yrb" secondAttribute="leading" id="geF-H8-vZU"/>
+            </constraints>
+            <size key="customSize" width="211" height="84"/>
+            <connections>
+                <outlet property="lblTime" destination="kU6-Bf-zA8" id="eEM-u3-wem"/>
+                <outlet property="view" destination="CVp-Do-vOM" id="SHG-S5-FQS"/>
+            </connections>
+            <point key="canvasLocation" x="-310" y="-33"/>
+        </collectionViewCell>
+    </objects>
+</document>
