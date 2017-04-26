@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14DB4AAF1EB047690073E82C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4AAE1EB047690073E82C /* AppDelegate.swift */; };
+		14DB4AB11EB047690073E82C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4AB01EB047690073E82C /* ViewController.swift */; };
+		14DB4AB41EB047690073E82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DB4AB21EB047690073E82C /* Main.storyboard */; };
+		14DB4AB61EB047690073E82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DB4AB51EB047690073E82C /* Assets.xcassets */; };
+		14DB4AB91EB0476A0073E82C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DB4AB71EB0476A0073E82C /* LaunchScreen.storyboard */; };
+		14DB4AE41EB049280073E82C /* AF+Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4AE21EB049280073E82C /* AF+Date+Extension.swift */; };
+		14DB4AE51EB049280073E82C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4AE31EB049280073E82C /* UIColorExtension.swift */; };
+		14DB4AED1EB049850073E82C /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4AE71EB049850073E82C /* ScheduleView.swift */; };
+		14DB4AEE1EB049850073E82C /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DB4AE81EB049850073E82C /* ScheduleView.xib */; };
+		14DB4AEF1EB049850073E82C /* ScheduleTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4AE91EB049850073E82C /* ScheduleTimeCollectionViewCell.swift */; };
+		14DB4AF01EB049850073E82C /* ScheduleTimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DB4AEA1EB049850073E82C /* ScheduleTimeCollectionViewCell.xib */; };
+		14DB4AF11EB049850073E82C /* ScheduleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4AEB1EB049850073E82C /* ScheduleHeaderView.swift */; };
+		14DB4AF21EB049850073E82C /* ScheduleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DB4AEC1EB049850073E82C /* ScheduleHeaderView.xib */; };
+		14DB4AF41EB04A510073E82C /* DeviceCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4AF31EB04A510073E82C /* DeviceCheck.swift */; };
+		14DB4AF81EB04B140073E82C /* MiscFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB4AF71EB04B140073E82C /* MiscFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14DB4AAB1EB047690073E82C /* TimeSheetPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSheetPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DB4AAE1EB047690073E82C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14DB4AB01EB047690073E82C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14DB4AB31EB047690073E82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14DB4AB51EB047690073E82C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14DB4AB81EB0476A0073E82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14DB4ABA1EB0476A0073E82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DB4AE21EB049280073E82C /* AF+Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AF+Date+Extension.swift"; sourceTree = "<group>"; };
+		14DB4AE31EB049280073E82C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		14DB4AE71EB049850073E82C /* ScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		14DB4AE81EB049850073E82C /* ScheduleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleView.xib; sourceTree = "<group>"; };
+		14DB4AE91EB049850073E82C /* ScheduleTimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		14DB4AEA1EB049850073E82C /* ScheduleTimeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleTimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		14DB4AEB1EB049850073E82C /* ScheduleHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleHeaderView.swift; sourceTree = "<group>"; };
+		14DB4AEC1EB049850073E82C /* ScheduleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleHeaderView.xib; sourceTree = "<group>"; };
+		14DB4AF31EB04A510073E82C /* DeviceCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceCheck.swift; sourceTree = "<group>"; };
+		14DB4AF71EB04B140073E82C /* MiscFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscFunctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14DB4AA81EB047690073E82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14DB4AA21EB047690073E82C = {
+			isa = PBXGroup;
+			children = (
+				14DB4AAD1EB047690073E82C /* TimeSheetPicker */,
+				14DB4AAC1EB047690073E82C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14DB4AAC1EB047690073E82C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14DB4AAB1EB047690073E82C /* TimeSheetPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14DB4AAD1EB047690073E82C /* TimeSheetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				14DB4AE61EB0493D0073E82C /* Core */,
+				14DB4AE01EB049280073E82C /* UtilKits */,
+				14DB4AAE1EB047690073E82C /* AppDelegate.swift */,
+				14DB4AB01EB047690073E82C /* ViewController.swift */,
+				14DB4AB21EB047690073E82C /* Main.storyboard */,
+				14DB4AB51EB047690073E82C /* Assets.xcassets */,
+				14DB4AB71EB0476A0073E82C /* LaunchScreen.storyboard */,
+				14DB4ABA1EB0476A0073E82C /* Info.plist */,
+			);
+			path = TimeSheetPicker;
+			sourceTree = "<group>";
+		};
+		14DB4AE01EB049280073E82C /* UtilKits */ = {
+			isa = PBXGroup;
+			children = (
+				14DB4AE11EB049280073E82C /* CommonMethod */,
+			);
+			path = UtilKits;
+			sourceTree = "<group>";
+		};
+		14DB4AE11EB049280073E82C /* CommonMethod */ = {
+			isa = PBXGroup;
+			children = (
+				14DB4AF71EB04B140073E82C /* MiscFunctions.swift */,
+				14DB4AF31EB04A510073E82C /* DeviceCheck.swift */,
+				14DB4AE21EB049280073E82C /* AF+Date+Extension.swift */,
+				14DB4AE31EB049280073E82C /* UIColorExtension.swift */,
+			);
+			path = CommonMethod;
+			sourceTree = "<group>";
+		};
+		14DB4AE61EB0493D0073E82C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				14DB4AE71EB049850073E82C /* ScheduleView.swift */,
+				14DB4AE81EB049850073E82C /* ScheduleView.xib */,
+				14DB4AE91EB049850073E82C /* ScheduleTimeCollectionViewCell.swift */,
+				14DB4AEA1EB049850073E82C /* ScheduleTimeCollectionViewCell.xib */,
+				14DB4AEB1EB049850073E82C /* ScheduleHeaderView.swift */,
+				14DB4AEC1EB049850073E82C /* ScheduleHeaderView.xib */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14DB4AAA1EB047690073E82C /* TimeSheetPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DB4ABD1EB0476A0073E82C /* Build configuration list for PBXNativeTarget "TimeSheetPicker" */;
+			buildPhases = (
+				14DB4AA71EB047690073E82C /* Sources */,
+				14DB4AA81EB047690073E82C /* Frameworks */,
+				14DB4AA91EB047690073E82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeSheetPicker;
+			productName = TimeSheetPicker;
+			productReference = 14DB4AAB1EB047690073E82C /* TimeSheetPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14DB4AA31EB047690073E82C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DeliveLee;
+				TargetAttributes = {
+					14DB4AAA1EB047690073E82C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = A8NUMP3P92;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14DB4AA61EB047690073E82C /* Build configuration list for PBXProject "TimeSheetPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14DB4AA21EB047690073E82C;
+			productRefGroup = 14DB4AAC1EB047690073E82C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14DB4AAA1EB047690073E82C /* TimeSheetPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14DB4AA91EB047690073E82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DB4AB91EB0476A0073E82C /* LaunchScreen.storyboard in Resources */,
+				14DB4AEE1EB049850073E82C /* ScheduleView.xib in Resources */,
+				14DB4AF01EB049850073E82C /* ScheduleTimeCollectionViewCell.xib in Resources */,
+				14DB4AB61EB047690073E82C /* Assets.xcassets in Resources */,
+				14DB4AF21EB049850073E82C /* ScheduleHeaderView.xib in Resources */,
+				14DB4AB41EB047690073E82C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14DB4AA71EB047690073E82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DB4AED1EB049850073E82C /* ScheduleView.swift in Sources */,
+				14DB4AF11EB049850073E82C /* ScheduleHeaderView.swift in Sources */,
+				14DB4AF41EB04A510073E82C /* DeviceCheck.swift in Sources */,
+				14DB4AB11EB047690073E82C /* ViewController.swift in Sources */,
+				14DB4AF81EB04B140073E82C /* MiscFunctions.swift in Sources */,
+				14DB4AE41EB049280073E82C /* AF+Date+Extension.swift in Sources */,
+				14DB4AAF1EB047690073E82C /* AppDelegate.swift in Sources */,
+				14DB4AEF1EB049850073E82C /* ScheduleTimeCollectionViewCell.swift in Sources */,
+				14DB4AE51EB049280073E82C /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14DB4AB21EB047690073E82C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DB4AB31EB047690073E82C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14DB4AB71EB0476A0073E82C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DB4AB81EB0476A0073E82C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14DB4ABB1EB0476A0073E82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14DB4ABC1EB0476A0073E82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14DB4ABE1EB0476A0073E82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8NUMP3P92;
+				INFOPLIST_FILE = TimeSheetPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delivelee.TimeSheetPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		14DB4ABF1EB0476A0073E82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8NUMP3P92;
+				INFOPLIST_FILE = TimeSheetPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delivelee.TimeSheetPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14DB4AA61EB047690073E82C /* Build configuration list for PBXProject "TimeSheetPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DB4ABB1EB0476A0073E82C /* Debug */,
+				14DB4ABC1EB0476A0073E82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DB4ABD1EB0476A0073E82C /* Build configuration list for PBXNativeTarget "TimeSheetPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DB4ABE1EB0476A0073E82C /* Debug */,
+				14DB4ABF1EB0476A0073E82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14DB4AA31EB047690073E82C /* Project object */;
+}
